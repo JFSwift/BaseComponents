@@ -1,16 +1,23 @@
 PODS:
   - BaseComponents (0.1.0)
+  - MJRefresh (3.5.0)
 
 DEPENDENCIES:
   - BaseComponents (from `../`)
+  - MJRefresh
+
+SPEC REPOS:
+  trunk:
+    - MJRefresh
 
 EXTERNAL SOURCES:
   BaseComponents:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BaseComponents: b0ed64a4456d19f3bf938bcd4d231b79ba0ca5b6
+  BaseComponents: 9f1023adeb74438917a8f46680ac875ed6a923bf
+  MJRefresh: 6afc955813966afb08305477dd7a0d9ad5e79a16
 
-PODFILE CHECKSUM: a1fc43acf840204ac140f1b78b1162767e9dd4ea
+PODFILE CHECKSUM: b9fad8c6792fe7cfd4ad6ed907655fc063519820
 
 COCOAPODS: 1.8.4

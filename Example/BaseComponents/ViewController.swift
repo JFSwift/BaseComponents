@@ -7,12 +7,17 @@
 //
 
 import UIKit
+import MJRefresh
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let scrolView = UIScrollView()
+        view.addSubview(scrolView)
+        scrolView.mj_header = MJRefreshHeader()
+        
     }
 
     override func didReceiveMemoryWarning() {
