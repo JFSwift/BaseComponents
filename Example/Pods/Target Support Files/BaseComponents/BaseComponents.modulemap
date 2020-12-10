@@ -1,0 +1,6 @@
+framework module BaseComponents {
+  umbrella header "BaseComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}
